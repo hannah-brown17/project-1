@@ -36,6 +36,10 @@ section {
 
 .lightgray {
   background-color: lightgray;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Brush Script MT';
+  font-size: 25px;
 }
 .lightgray img {
   width: 100%;
@@ -45,6 +49,10 @@ section {
 
 .white {
   background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Brush Script MT';
+  font-size: 25px;
 }
 .white img {
   width: 100%;
