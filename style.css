@@ -3,13 +3,14 @@ body {
   box-sizing: border-box;
   background-color: white;
   height: 100vh;
-
-  border-style: solid;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   height: 100%;
+  margin: 30px;
 }
 
 nav {
@@ -22,6 +23,7 @@ nav {
   height: 40px;
   background-color: black;
   font-family: 'Montserrat';
+  margin-bottom: 30px;
 }
 
 nav .left {
@@ -30,8 +32,11 @@ nav .left {
 nav .left p {
   margin-right: 25px;
 }
-section {
-  display: flex;
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat';
 }
 
 .lightgray {
@@ -40,6 +45,7 @@ section {
   font-weight: bold;
   font-family: 'Brush Script MT';
   font-size: 25px;
+  border: 10px solid white;
 }
 .lightgray img {
   width: 100%;
@@ -53,6 +59,7 @@ section {
   font-weight: bold;
   font-family: 'Brush Script MT';
   font-size: 25px;
+  border: 10px solid white;
 }
 .white img {
   width: 100%;
@@ -64,9 +71,4 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-nav,
-footer {
-  grid-column: span 2;
 }
